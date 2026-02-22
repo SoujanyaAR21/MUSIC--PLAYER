@@ -61,7 +61,10 @@ audio {
   box-shadow: 0 0 10px rgba(29,185,84,0.6);
 }
 
-
+.controls {
+  display: flex;
+  justify-content: center;
+}
 
 
 
