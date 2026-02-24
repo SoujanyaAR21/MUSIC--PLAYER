@@ -68,6 +68,12 @@ audio {
   margin-top: 15px;
 }
 
+#playPauseButton {
+  font-size: 36px;
+  background: #1db954;
+  border-radius: 50%;
+}
+
 .img{
   margin-top: 50px;
 }
