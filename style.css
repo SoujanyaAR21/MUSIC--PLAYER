@@ -77,6 +77,8 @@ audio {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(29,185,84,0.8);
 }
 
 .img{
