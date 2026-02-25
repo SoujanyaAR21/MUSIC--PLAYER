@@ -93,6 +93,10 @@ audio {
   color: #b3b3b3;
 }
 
+audio {
+  display: none; 
+}
+
 .img{
   margin-top: 50px;
 }
