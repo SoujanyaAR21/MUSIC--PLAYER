@@ -97,6 +97,11 @@ audio {
   display: none; 
 }
 
+.progress-container {
+  width: 100%;
+  height: 6px;
+}
+
 .img{
   margin-top: 50px;
 }
