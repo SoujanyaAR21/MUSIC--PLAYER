@@ -73,6 +73,8 @@ audio {
   border: none;
   color: white;
   font-size: 28px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 #playPauseButton {
