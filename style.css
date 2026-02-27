@@ -77,6 +77,12 @@ audio {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.controls button:hover {
+  color: #1db954; 
+  transform: scale(1.2);
+  box-shadow: 0 0 12px rgba(29,185,84,0.7);
+}
+
 #playPauseButton {
   font-size: 36px;
   background: #1db954;
