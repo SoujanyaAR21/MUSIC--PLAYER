@@ -71,6 +71,8 @@ audio {
 .controls button {
   background: none;
   border: none;
+  color: white;
+  font-size: 28px;
 }
 
 #playPauseButton {
