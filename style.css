@@ -68,6 +68,11 @@ audio {
   margin-top: 15px;
 }
 
+.controls button {
+  background: none;
+  border: none;
+}
+
 #playPauseButton {
   font-size: 36px;
   background: #1db954;
@@ -97,23 +102,7 @@ audio {
   display: none; 
 }
 
-.progress-container {
-  width: 100%;
-  height: 6px;
-  background: #404040;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 15px 0;
-  position: relative;
-  box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
-}
 
-.controls {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 15px;
-}
 
 .img{
   margin-top: 50px;
