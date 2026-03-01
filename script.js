@@ -7,4 +7,9 @@ const trackNameElement = document.getElementById('trackName');
 const imageElement = document.getElementById('image');
 const volumeControl = document.getElementById('volumeControl');
 
-
+const audioFiles = [
+    {name:'EEGA Nene Ne audio Song',
+     src:'music/EEGA  Nene Nani Ne Video Song.mp3', 
+     img:'image/eega.jpg'
+    },
+];
