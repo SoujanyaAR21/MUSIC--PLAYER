@@ -16,4 +16,8 @@ const audioFiles = [
      src:'music/Love Mocktail - Neene Yendigu (Video Song)  Krishna, Milana  Raghu Dixit  Raghavendra Kamath.mp3', 
      img:'image/love_Mocktail.jpg'
     },
+    {name:'Olave Olave - Lyrical  SSE (Side B)g',
+     src:'music/Olave Olave - Lyrical  SSE (Side B)  Rakshit Shetty, Rukmini  Charan RajHemanth MRao.mp3',
+     img:'image/saptha.jpg'
+    },
 ];
