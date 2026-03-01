@@ -12,4 +12,8 @@ const audioFiles = [
      src:'music/EEGA  Nene Nani Ne Video Song.mp3', 
      img:'image/eega.jpg'
     },
+     {name:'Love Mocktail - Neene Yendigu',
+     src:'music/Love Mocktail - Neene Yendigu (Video Song)  Krishna, Milana  Raghu Dixit  Raghavendra Kamath.mp3', 
+     img:'image/love_Mocktail.jpg'
+    },
 ];
