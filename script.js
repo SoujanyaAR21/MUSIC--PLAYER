@@ -25,3 +25,6 @@ const audioFiles = [
      img:'image/shershaah.jpg'
     },
 ];
+
+let currentTrack = 0;
+let isPlaying = false;
