@@ -39,3 +39,13 @@ function loadTrack(index){
     }
 }
 
+//function to toggle play\pause
+function togglePlayPause() {
+if (isPlaying) {
+     audioPlayer.pause();
+     isPlaying = false;
+     playPauseButton.textContent = '\u25B6';//playicon
+
+    }
+}
+
