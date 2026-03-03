@@ -56,3 +56,7 @@ else{
      }
 }
 
+playPauseButton.addEventListener('click', () => { 
+    togglePlayPause();
+});
+
