@@ -60,3 +60,8 @@ playPauseButton.addEventListener('click', () => {
     togglePlayPause();
 });
 
+nextButton.addEventListener('click', () => {
+        currentTrack= (currentTrack + 1)%audioFiles.length;
+        loadTrack(currentTrack);
+});
+
