@@ -65,3 +65,7 @@ nextButton.addEventListener('click', () => {
         loadTrack(currentTrack);
 });
 
+prevButton.addEventListener('click', () => {
+    currentTrack = (currentTrack- 1 + audioFiles.length) % audioFiles.length;
+    loadTrack(currentTrack);
+});
