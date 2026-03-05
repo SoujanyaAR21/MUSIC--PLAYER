@@ -74,3 +74,5 @@ audioPlayer.addEventListener('ended',() => {
     currentTrack = (currentTrack + 1)% audioFiles.length;
     loadTrack(currentTrack);
 });
+
+loadTrack(currentTrack);
