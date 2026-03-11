@@ -39,7 +39,7 @@ const trackNameElement = document.getElementById('trackName');
 const imageElement = document.getElementById('image');
 const volumeControl = document.getElementById('volumeControl');
 
-// Function to load selected track
+// Music playlist (song name, audio file, image)
 const audioFiles = [
     {name:'EEGA Nene Ne audio Song',
      src:'music/EEGA  Nene Nani Ne Video Song.mp3', 
@@ -62,6 +62,7 @@ const audioFiles = [
 let currentTrack = 0;
 let isPlaying = false;
 
+// Function to load selected track
 function loadTrack(index){
     audioPlayer.src = audioFiles[index].src;
     trackNameElement.textContent = audioFiles[index].name;
