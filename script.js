@@ -167,6 +167,7 @@ loadTrack(currentTrack);
 
 audioPlayer.volume = volumeControl.value;
 
+//volume increase or decrease
 volumeControl.addEventListener("input",() => {
     audioPlayer.volume = volumeControl.value;
     volumeControl.textContent = ` volume:${Math.round(volumeControl.value*100)}%`
