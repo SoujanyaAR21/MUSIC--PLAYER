@@ -1,6 +1,6 @@
 # 🎵 Music Player Web Application
 
-##📌 Features
+## 📌 Features
 
 Play and pause music
 Next and previous song buttons
